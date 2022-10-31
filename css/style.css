@@ -17,3 +17,20 @@
 h1{
     margin-bottom: 15px;
 }
+
+ul li{
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+ul i {
+    margin-left: 20px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.block{
+    display: block;
+}
