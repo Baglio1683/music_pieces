@@ -19,6 +19,15 @@
         <ul>
             <h1>Lista Canzoni</h1>
 
+            <div>
+                <label for="" class="block mb-10">Aggiungi Canzone</label>
+                <input type="text" name="" id="" placeholder="cantante" class="block mb-10" v-model="song.cantante">
+                <input type="text" placeholder="Nome Canzone" class="block mb-10" v-model="song.nome">
+                <input type="text" placeholder="genere" class="block mb-10" v-model="song.genere">
+                <input type="text" placeholder="durata" class="block mb-10" v-model="song.durata">
+                <Button class="block mb-10" @click="addSong">Aggiungi</Button>
+            </div>
+
             <li v-for="(item,index) in constArrayBrani" @click="showItem(index)" >
                 
                 Nome: {{item.nome}},  Cantante: {{item.cantante}}, Genere: {{item.genere}}, Durata: {{item.durata}}

@@ -34,3 +34,7 @@ ul i {
 .block{
     display: block;
 }
+
+.mb-10{
+    margin-bottom: 10px;
+}
